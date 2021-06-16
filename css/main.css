@@ -1,0 +1,93 @@
+.main {
+	height: 587px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main p:nth-child(1) {
+	font-size: 30px;
+	color: #585858;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.main p:nth-child(2) {
+	font-size: 45px;
+	color: #585858;
+	margin-bottom: 50px;
+}
+
+.main p:nth-child(4) {
+	font-size: 18px;
+	color: #585858;
+	margin-bottom: 80px;
+}
+
+.line-blue {
+	width: 140px;
+	height: 5px;
+	background: #4acaff;
+	margin-bottom: 55px;
+}
+
+.main button {
+	width: 290px;
+	height: 60px;
+	text-transform: uppercase;
+	color: #4acaff;
+	font-size: 15px;
+	border: 2px solid #4acaff;
+	border-radius: 5px;
+	outline: none;
+	background: #fff;
+	font-weight: bold;
+}
+
+.block-mail {
+	background: #131c25;
+	height: 443px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	position: relative;
+}
+
+.block-mail p {
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+.block-mail input {
+	width: 365px;
+	height: 55px;
+	background: #131c25;
+	padding-left: 20px;
+	border: 2px solid #4acaff;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.block-mail input[type="email"]::-webkit-input-placeholder {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.block-mail button {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	position: absolute;
+	top: 243px;
+    right: 472px;
+}
+

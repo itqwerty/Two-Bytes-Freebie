@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.container {
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+button:hover, a:hover, select:hover {
+	cursor: pointer;
+}
+
